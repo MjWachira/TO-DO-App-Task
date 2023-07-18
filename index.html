@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="upper">
+            <!-- <img src="images/bg-desktop-dark.jpg" alt=""> -->
+            <div class="upper-inner">
+                <div style="color:white;font-size:30px; font-weight:bold; margin-bottom: 30px;">
+                    T O D O
+                </div>
+                <form action="" class="inputform">
+                    <div
+                        style="display: flex; align-items: center; padding: 2px; background-color: rgb(80, 79, 79); border-radius: 5px;">
+                        <div id="radio">
+                            <input type="checkbox" name="" id="checkBox">
+                        </div>
+                        <input type="text" name="" id="new-todo-input" placeholder="Create a new todo">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="lower-inner">
+
+            </div>
+        </div>
+        <div class="bottom">
+                <span id="items-left">Tasks</span>
+            <button>
+                <span id="all-items">All</span>
+            </button>
+            <button>
+                <span id="active">active</span>
+            </button>
+            <button>
+                <span id="completed">Completed</span>
+            </button>
+            <button>
+                <span id="clear-storage">Clear</span>
+            </button>
+
+            
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
